@@ -1,0 +1,134 @@
+
+
+.top{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.top .left{
+    background: #efb509;
+    border-bottom: 3px solid #efb509;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .25) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px;
+    text-transform: uppercase;
+}
+
+.top .right{
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding: 5px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .25) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px;
+    text-transform: uppercase;
+}
+
+.bot{
+    padding: 0 15px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    /* .Home{
+        background: red;
+    } */
+    
+  }
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /* .Home{
+        background: green;
+    } */
+
+    .top{
+        display: block;
+    }
+
+    .top .left{
+        font-size: 40px;
+    }
+    .top .right{
+        font-size: 40px;
+    }
+    
+    .top .left{
+        margin: 0;
+    }
+
+
+    .top .right{
+        margin-bottom: 32px;
+    }
+  }
+
+
+
+@media screen and (min-width: 480px) and (max-width: 769px){
+    /* .Home{
+        background: violet;
+    } */
+
+    .top{
+        display: block;
+    }
+
+    .top .left{
+        font-size: 35px;
+    }
+    .top .right{
+        font-size: 35px;
+    }
+    
+    .top .left{
+        margin: 0;
+    }
+
+    
+    .top .right{
+        margin-bottom: 28px;
+    }
+
+  }
+
+
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+    /* .Home{
+        background: yellow;
+    } */
+
+    
+    .top{
+        display: block;
+    }
+
+    .top .left{
+        font-size: 28px;
+    }
+    .top .right{
+        font-size: 28px;
+    }
+    
+    .top .left{
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    .top .right{
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+  }

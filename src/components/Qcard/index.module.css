@@ -1,0 +1,169 @@
+.Qcard{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.Qcard .left{
+    display: flex;
+    align-items: baseline;
+    background: #2a2b2f;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .35);
+    column-gap: 10px;
+    font-weight: 700;
+    height: 250px;
+    padding: 20px;
+    position: relative;
+    width: 35%;
+}
+
+
+.Qcard .left::before{
+    background: hsla(0, 0%, 100%, .03);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+.left .serial_num{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        z-index: 10;
+}
+
+.serial_num p{
+    color: #d5e1ef;
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+}
+
+.left h1{
+    color: #d5e1ef;
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    text-shadow: rgba(0, 0, 0, .5) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .3) 0 -3px 5px;
+}
+
+.Qcard .right{
+    align-items: flex-start;
+    background: #2196f3;
+    background: linear-gradient(120deg, #343a4f, #2196f3);
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: -2px -2px 2px 0 rgba(80, 80, 80, .1), 2px 2px 3px 0 hsla(0, 0%, 5%, .3), inset 0 0 0 2px rgba(80, 80, 80, .2);
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 200px;
+    justify-content: center;
+    padding: 20px 10px;
+    row-gap: 10px;
+    width: 65%;
+}
+
+.right .Question1{
+    align-items: center;
+    color: #fff;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    text-shadow: rgba(0, 0, 0, .25) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px;
+    text-transform: capitalize;
+}
+.right .Question2{
+    align-items: center;
+    color: #fff;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    text-shadow: rgba(0, 0, 0, .25) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px;
+    text-transform: capitalize;
+}
+.right .Question3{
+    align-items: center;
+    color: #fff;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    text-shadow: rgba(0, 0, 0, .25) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px;
+    text-transform: capitalize;
+}
+.right .Question4{
+    align-items: center;
+    color: #fff;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    text-shadow: rgba(0, 0, 0, .25) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px;
+    text-transform: capitalize;
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .Qcard{
+        display: inline;
+
+    }
+
+    .Qcard .left{
+        width: 100%;
+    }
+    .Qcard .right{
+        width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+  }
+
+
+
+@media screen and (min-width: 480px) and (max-width: 769px){
+    .Qcard{
+        display: inline;
+
+    }
+
+    .Qcard .left{
+        width: 100%;
+    }
+    .Qcard .right{
+        width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+  }
+
+
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+    .Qcard{
+        display: inline;
+
+    }
+
+    .Qcard .left{
+        width: 100%;
+    }
+    .Qcard .right{
+        width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+  }
