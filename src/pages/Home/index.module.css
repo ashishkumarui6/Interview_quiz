@@ -37,6 +37,21 @@
     padding: 0 15px;
 }
 
+
+.btn button{
+    background: #2196f3;
+    border: 1px solid #2196f3;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .35);
+    color: #fff;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    height: 40px;
+    transition: all .3s ease-out;
+    width: 120px;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1200px){
     /* .Home{
         background: red;
@@ -47,9 +62,9 @@
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    /* .Home{
-        background: green;
-    } */
+    .bot{
+        padding: 0px;
+    }
 
     .top{
         display: block;
@@ -70,14 +85,20 @@
     .top .right{
         margin-bottom: 32px;
     }
+
+
+    .btn button{
+        margin-top: 20px;
+    }
   }
 
 
 
 @media screen and (min-width: 480px) and (max-width: 769px){
-    /* .Home{
-        background: violet;
-    } */
+
+    .bot{
+        padding: 0px;
+    }
 
     .top{
         display: block;
@@ -99,15 +120,19 @@
         margin-bottom: 28px;
     }
 
+    .btn button{
+        margin-top: 25px;
+    }
+
   }
 
 
 
 @media screen and (min-width: 0px) and (max-width: 480px){
-    /* .Home{
-        background: yellow;
-    } */
 
+    .bot{
+        padding: 0px;
+    }
     
     .top{
         display: block;
@@ -129,6 +154,11 @@
     .top .right{
         margin-bottom: 20px;
         padding: 0;
+    }
+
+
+    .btn button{
+        margin-top: 20px;
     }
 
   }
