@@ -38,7 +38,7 @@
 }
 
 
-.btn button{
+.btn .btn_blue{
     background: #2196f3;
     border: 1px solid #2196f3;
     border-radius: 5px;
@@ -50,7 +50,43 @@
     height: 40px;
     transition: all .3s ease-out;
     width: 120px;
+    margin: 0 8px;
 }
+
+
+
+.btn_red{
+    background-color: #e91e63;
+    border: 1px solid #e91e63;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .35);
+    color: #fff;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    height: 40px;
+    transition: all .3s ease-out;
+    width: 120px;
+    margin: 0 8px;
+}
+
+.btn_green{
+    background: #23c186;
+    border: 1px solid #23c186;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .35);
+    color: #fff;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    height: 40px;
+    transition: all .3s ease-out;
+    width: 120px;
+    margin: 0 8px;
+}
+
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1200px){
     /* .Home{
@@ -87,7 +123,8 @@
     }
 
 
-    .btn button{
+
+    .btn{
         margin-top: 20px;
     }
   }
@@ -120,8 +157,9 @@
         margin-bottom: 28px;
     }
 
-    .btn button{
-        margin-top: 25px;
+
+    .btn{
+        margin-top: 20px;
     }
 
   }
@@ -157,7 +195,7 @@
     }
 
 
-    .btn button{
+    .btn{
         margin-top: 20px;
     }
 
